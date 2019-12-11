@@ -424,10 +424,8 @@ static void _InitController(void) {
 else
 {
 	wr_reg(0x0000,0x0001);
-
 	wr_reg(0x001A, 0x0004); // BT[3:0]=0100, VCL=-VCI; VGH=VCI+2DDVDH; VGL=-2DDVDH
-	wr_reg(0x001B, 0x000C); // VRH[4:0]=0Ch, VREG1=(2.5v*1.9)=4.75V		VCIRE=1;
-		// VCOM offset
+	wr_reg(0x001B, 0x000C); // VRH[4:0]=0Ch, VREG1=(2.5v*1.9)=4.75V		VCIRE=1;// VCOM offset
 	wr_reg(0x0023, 0x0000); // SELVCM=0, R24h and R25h selects VCOM
 	wr_reg(0x0024, 0x0040); // VCM[6:0]=1000000, VCOMH voltage=VREG1*0.748 (originally 5F)
 	wr_reg(0x0025, 0x000F); // VDV[4:0]=01111, VCOMH amplitude=VREG*1.00
@@ -448,15 +446,11 @@ else
 	wr_reg(0x001F, 0x00D0); // VCOMG=1
 	delay(10);
 	wr_reg(0x0017, 0x0005); // IFPF[2:0]=101, 16-bit/pixel
-
 	// Panel Configuration
 	//wr_reg(0x0036, 0x0011); // REV_PANEL=1, SM_PANEL=1, GS_PANEL=1, SS_PANEL=1
 	//wr_reg(0x0029, 0x0031); // NL[5:0]=110001, 400 lines
 	//wr_reg(0x0071, 0x001A); // RTN0
-
-
 	//Gamma 2.2 Setting
-
 	wr_reg(0x0040, 0x0000);
 	wr_reg(0x0041, 0x0009);
 	wr_reg(0x0042, 0x0012);
@@ -473,7 +467,6 @@ else
 	wr_reg(0x004D, 0x0000);
 	wr_reg(0x004E, 0x0000);
 	wr_reg(0x0057, 0x004F);//
-
 #ifdef ORIENTATION_VERTICAL
 	wr_reg(0x0016, 0x00C8);
 #else
