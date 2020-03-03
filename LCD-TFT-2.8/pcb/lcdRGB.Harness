@@ -1,0 +1,5 @@
+Conterast=
+Control=CS,RS,WR,RST,RD
+Data LSB=
+Data MSB=
+Touch=CS,MISO,MOSI,SCK,INT

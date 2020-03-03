@@ -567,10 +567,10 @@ ARM Macro Assembler    Page 9
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
 ork --depend=.\objects\startup_stm32f10x_cl.d -o.\objects\startup_stm32f10x_cl.
-o -I"G:\Sina\Naminic1\Naminic\Evaluation Product\maull all\7 segment\code\RTE" 
--IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include -IC:\Keil_v5\ARM\
-CMSIS\Include --predefine="__UVISION_VERSION SETA 515" --predefine="STM32F10X_C
-L SETA 1" --list=.\listings\startup_stm32f10x_cl.lst startup_stm32f10x_cl.s
+o -IE:\GitHub\MODULE\7SEGMENT\code\RTE -IC:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP
+\1.1.0\Device\Include -IC:\Keil_v5\ARM\CMSIS\Include --predefine="__UVISION_VER
+SION SETA 515" --predefine="STM32F10X_CL SETA 1" --list=.\listings\startup_stm3
+2f10x_cl.lst startup_stm32f10x_cl.s
 
 
 

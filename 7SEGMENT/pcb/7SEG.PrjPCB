@@ -48,7 +48,7 @@ AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=0
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -57,7 +57,7 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [Document3]
-DocumentPath=7SEG.OutJob
+DocumentPath=..\..\..\..\dxp\mylib.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -72,7 +72,11 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 
 [GeneratedDocument1]
-DocumentPath=7-SEGMENT.PcbDoc.htm
+DocumentPath=Project Outputs for 7SEG\Design Rule Check - 7-SEGMENT.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=F:\tabloravan\pcb\pcbkar\PCB_981006_1350\PCB1.PcbDoc.htm
 DItemRevisionGUID=
 
 [Configuration1]
